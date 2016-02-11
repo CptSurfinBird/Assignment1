@@ -15,7 +15,15 @@
 		firstParagraph.innerHTML = "I am a web developer from Barrie, Ontario. My goals are to create new and inavative web soloutions for the future.";
 	}
 
-	
+		function replaceSecondParagraph() {
+		console.log("inside replaceSecondParagraph function");
+		var secondParagraph;
+		
+		secondParagraph = document.getElementById("secondParagraph");
+		
+		secondParagraph.innerHTML = "This is update on an update, whoa!";
+	}
+
 	// declare an anonymous function with named alias
 	/*
 	var replaceFirstParagraph = function() {
