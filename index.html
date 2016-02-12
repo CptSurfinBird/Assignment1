@@ -72,10 +72,22 @@
 		<section id="contactMe">
 			<div class="container">
 				<h2>Contact Me</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ante porttitor magna mollis elementum id in enim. Curabitur ex ligula, fermentum condimentum tincidunt cursus, aliquet eget diam. Integer ac feugiat nunc, ut volutpat ex. Quisque purus turpis, eleifend vitae erat quis, venenatis euismod orci. Cras posuere sollicitudin posuere. Nam rutrum mattis consectetur. Integer eu vulputate ligula. Fusce interdum dictum dui, vitae pharetra metus interdum nec. Cras rutrum a sapien non pretium. Vestibulum tempor id nisl non mattis. Cras accumsan euismod rutrum. Ut posuere elit quis dictum accumsan. Donec congue leo sed dapibus pellentesque. Ut congue sodales tortor sit amet faucibus. Duis aliquam venenatis sapien a tempus. Quisque id tortor ac est condimentum molestie et convallis purus.</p>
+				<form method="post">
+					Name:
+					<input id="name_box" type="text" required name="client_name">
+					E-mail:
+					<input id="email_box" type="text" required name="client_email">
+					Phone Number:
+					<input id="phone_number" type="number" name="client_number">
+					<br />
+					<textarea id="text_space" type="text"></textarea>
+					<br />
+					<input type="submit" value="Submit" />
+				</form>
 			</div>
 		</section>
 	</main>
+	<footer>
 	<!-- JavaScript Section -->
 	<script src="scripts/lib/jquery-2.2.0.min.js"></script>
 	<script src="scripts/lib/bootstrap.min.js"></script>

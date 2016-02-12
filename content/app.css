@@ -1,8 +1,4 @@
 /* custom styles sheet */
-nav .navbar-default {
-	position: fixed;	
-}
-
 #mainContainer {
 	outline: 5px dashed red;
 	position: relative;
