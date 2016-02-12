@@ -13,7 +13,7 @@
 
 	var my_project1;
 	my_project1 = document.getElementById("my_project1");
-	my_project1.innerHTML = "COver up";
+	my_project1.innerHTML = "The object of this project was to create a multi-page site with a functioning nav bar. I also made it as responsive as I was able to at the time.";
 
 	var my_project2;
 	my_project2 = document.getElementById("my_project2");
