@@ -1,17 +1,30 @@
 /* custom styles sheet */
 body {
-	border: dashed red;
-	
+	background: #CCC;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	max-width: 1080;
 }
 
-nav {
-	border: dashed orange;
+h1, h2, h3, h4, h5, h6, p {
+	margin-top 0;
+}
+
+#mainContainer {
+	outline: 2px dotted blue;
+	background: #FCFFCF;
+	width: 80%;
+	margin: 0 auto;
 }
 
 main {
 	border: dashed yellow;
+	width: 80%;
+	margin: 0 auto;
 }
 
 footer {
 	border: dashed green;
+	clear: both;
 }
