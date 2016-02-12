@@ -1,7 +1,17 @@
 /* custom styles sheet */
-#mainContainer {
-	outline: 5px dashed red;
-	position: relative;
-	width: 80%;
-	margin: 0 auto;
+body {
+	border: dashed red;
+	
+}
+
+nav {
+	border: dashed orange;
+}
+
+main {
+	border: dashed yellow;
+}
+
+footer {
+	border: dashed green;
 }
