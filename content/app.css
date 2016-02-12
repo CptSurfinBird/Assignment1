@@ -1,6 +1,6 @@
 /* custom styles sheet */
 body {
-	background: #CCC;
+	background: lightslategrey;
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -8,14 +8,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-	margin-top 0;
+	margin: 0 auto;
 }
 
 #mainContainer {
 	outline: 2px dotted blue;
-	background: #FCFFCF;
+	background: lightskyblue;
 	width: 80%;
 	margin: 0 auto;
+}
+
+#myProjects {
+	background: lightskyblue;
 }
 
 main {
@@ -26,5 +30,6 @@ main {
 
 footer {
 	border: dashed green;
+	margin: 0 auto;
 	clear: both;
 }

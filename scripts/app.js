@@ -24,10 +24,10 @@ function replaceContent() {
 				my_project1.innerHTML = "The object of this project was to create a multi-page site with a functioning nav bar. I also made it as responsive as I was able to at the time.";
 
 				my_project2 = document.getElementById("my_project2");
-				my_project2.innerHTML = "Cover UP!";
+				my_project2.innerHTML = "This project was done with pseudo code, a fake computing language which helps with planning a project.";
 
 				my_project3 = document.getElementById("my_project3");
-				my_project3.innerHTML = "COVER UP!!";
+				my_project3.innerHTML = "";
 				}
 
 				if (my_project1 == null) {
