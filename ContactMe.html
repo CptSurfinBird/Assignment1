@@ -28,19 +28,35 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#homePage">Home<a></li>
-					<li><a href="#aboutMe">About Me</a></li>
-					<li><a href="#myProjects">My Projects</a></li>
-					<li><a href="#contactMe">Contact Me</a></li>
+					<li><a href="index.html">Home<a></li>
+					<li><a href="AboutMe.html">About Me</a></li>
+					<li><a href="MyProjects.html">My Projects</a></li>
+					<li><a href="ContactMe.html">Contact Me</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-	
 	<main>
-		
+		<section id="contactMe">
+			<div class="container">
+				<h2>Contact Me</h2>
+				<p id="contact_me">Nunc aliquet odio arcu, sed lacinia est cursus et.</p>
+				<form method="post">
+					Name:
+					<input id="name_box" type="text" required name="client_name">
+					E-mail:
+					<input id="email_box" type="text" required name="client_email">
+					Phone Number:
+					<input id="phone_number" type="number" name="client_number">
+					<br />
+					<textarea id="text_space" type="text"></textarea>
+					<br />
+					<input type="submit" value="Submit"><a href="index.html">
+				</form>
+			</div>
+		</section>
 	</main>
 	<footer>
 		
